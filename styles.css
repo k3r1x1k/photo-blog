@@ -1,66 +1,88 @@
+:root {
 
-        ul{
-            list-style-type: none;
-        }
-        button{
-            width: 165px;
-            height: 60px;
-            background-color: rgba(253, 253, 253, 0.944);
-            /* border-radius: 10px; */
-            border: 1px solid black;
-        }
+    --main-text-color: #626262;
 
-        footer{
-            justify-content: center;
-            display: flex;
-        }
+    --heading-color: #B4AD9E;
 
-        .s1{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
+    --nav-link-color: #7D7D7D;
 
-        .ul1{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
+    --accent-color: #03A9F4;
 
-        .ln1{
-            font-size: 23px;
-            padding-left: 70px;
-            padding-right: 70px;
-            padding-top: 50px;
-            padding-bottom: 40px;
-            
-        }
-        p{
-            width: 420px;
-        }
+    --bg-color: #FFFFFF;
 
-        .ul2{
-            padding-left: 35px;
-            padding-right: 35px;
-        }
+    --border-btn-color: #626262;
 
-        .ul3{
-            padding-left: 35px;
-            padding-right: 35px;
-            
-        }
+    --font-family: "Playfair Display", sans-serif;
 
-        .ln2{
-            padding-top: 50px;
-        }
+    --second-family: "Ubuntu", sans-serif;
 
-        a{
-            color: black;
-            font-size: 15px;
-            text-decoration: none;
-        }
-        .spa{
-            color: rgb(105, 187, 228);
-            font-size: 15px;
-        }
-       
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    width: 165px;
+    height: 60px;
+    background-color:var(--bg-color);
+    /* border-radius: 10px; */
+    border: 1px solid black;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+}
+
+.s1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ln1 {
+    font-size: 23px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+
+p {
+    width: 420px;
+}
+
+.ul2 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.ul3 {
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+.ln2 {
+    padding-top: 50px;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.spa {
+    color: rgb(105, 187, 228);
+    font-size: 15px;
+}
