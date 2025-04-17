@@ -18,14 +18,21 @@
 
 }
 
+h3{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+color: #626262;
+}
+
 body{
-    font-family: "Playfair Display", serif;
+    font-family: var(--font-family);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.header_item {
+.header_list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,12 +76,12 @@ p {
     width: 420px;
 }
 
-.ul2 {
+.galery_list {
     padding-left: 35px;
     padding-right: 35px;
 }
 
-.ul3 {
+.galery_list {
     padding-left: 35px;
     padding-right: 35px;
 
