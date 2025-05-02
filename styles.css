@@ -32,15 +32,27 @@ body{
     font-style: normal;
 }
 
+.container {
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; */
+    outline: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+}
 .header_list {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 button {
     width: 165px;
