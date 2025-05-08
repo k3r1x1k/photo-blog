@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
    
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <nav>
         <ul class="header-list list">
           <li><a class="header-link current" href="./index.html">LIFESTYLE</a></li>
@@ -25,14 +26,16 @@
           <li><a class="header-link" href="./">TRAVEL</a></li>
         </ul>
       </nav>
+      </div>
     </header>
 
     <main>
       <section class="gallery">
+        <div class="container">
         <!-- gallery list -->
         <ul class="gallery-list">
           <li class="gallery-item">
-            <img src="./images/img-music.jpg" alt="music" />
+            <img src="./img/man.jpg" alt="man" />
             <p class="gallery-topic">LIFESTYLE</p>
             <h3 class="gallery-heading">More than just a music festival</h3>
             <p class="gallery-text">
@@ -43,7 +46,7 @@
             </p>
           </li>
           <li class="gallery-item">
-            <img src="./images/coffe.jpg" alt="coffee" />
+            <img src="./img/coffe.jpg" alt="coffee" />
             <p class="gallery-topic">LIFESTYLE</p>
             <h3 class="gallery-heading">Life tastes better with coffee</h3>
             <p class="gallery-text">
@@ -54,7 +57,7 @@
             </p>
           </li>
           <li class="gallery-item">
-            <img src="./images/dream.jpg" alt="dream" />
+            <img src="./img/friends.jpg" alt="friends" />
             <p class="gallery-topic">PHOTODAIRY</p>
             <h3 class="gallery-heading">American dream</h3>
             <p class="gallery-text">
@@ -65,7 +68,7 @@
             </p>
           </li>
           <li class="gallery-item">
-            <img src="./images/alps.jpg" alt="exploring" />
+            <img src="./img/homeless.jpg" alt="homeless" />
             <p class="gallery-topic">PHOTODAIRY</p>
             <h3 class="gallery-heading">A day exploring the Alps</h3>
             <p class="gallery-text">
@@ -76,11 +79,11 @@
             </p>
           </li>
           <li class="gallery-item">
-            <img src="./images/running.jpg" alt="running" />
+            <img src="./img/woman.jpg" alt="woman" />
             <p class="gallery-topic">LIFESTYLE</p>
             <h3 class="gallery-heading">Top 10 song for running</h3>
 
-<p class="gallery-text">
+              <p class="gallery-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -88,7 +91,7 @@
             </p>
           </li>
           <li class="gallery-item">
-            <img src="./images/road.jpg" alt="winter" />
+            <img src="./img/road.jpg" alt="road" />
             <p class="gallery-topic">LIFESTYLE</p>
             <h3 class="gallery-heading">Cold winter days</h3>
             <p class="gallery-text">
@@ -100,6 +103,7 @@
           </li>
         </ul>
         <button type="button" class="gallery-btn">Load more</button>
+      </div>
       </section>
     </main>
   </body>

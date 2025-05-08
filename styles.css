@@ -11,6 +11,13 @@
     --second-family: "Ubuntu", sans-serif;
 }
 
+.container{
+    width: 936px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline:1px solid red;
+}
+
 body {
     font-family: var(--font-family);
     color: var(--main-text-color);
@@ -19,12 +26,30 @@ body {
     font-size: 14px;
 }
 
+.header {
+    padding-top: 71px;
+    padding-bottom: 26px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
 .header-link {
     color: var(--nav-link-color);
 }
 
 .header-link.current {
     color: var(--accent-color);
+}
+
+.gallery {
+    padding-top: 66px;
+    padding-bottom: 66px;
+    background-color: aquamarine;
 }
 
 .gallery-topic {
@@ -41,4 +66,14 @@ body {
     font-family: inherit;
     font-size: 14px;
     color: inherit;
+}
+
+.gallery-item{
+    width: 420px;
+}
+
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px 65px;
 }
