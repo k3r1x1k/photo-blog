@@ -1,97 +1,106 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photoblog</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-<header>
-<div class="container">
-<nav>
-    <ul class="header_list">
-        <li class="header_nav"><a class="spa" href="./index.html">LIFESTYLE</a></li>
-        <li class="header_nav"><a href="./index.html">PHOTODIARY</a></li>
-        <li class="header_nav"><a href="./index.html">MUSIC</a></li>
-        <li class="header_nav"><a href="./index.html">TRAVEL</a></li>
-    </ul>
-</nav>
-</div>
-</header>
-
-<main>
-    <div class="container">
-        <ul class="galery_list">
-            <li class="galery_items">
-                <img src="./img/man.jpg" alt="man">
-                <p></p>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur
-                     voluptas quos dolor tenetur eum earum similique necessitatibus modi ad reiciendis
-                      non saepe adipisci, quo voluptates soluta culpa aliquid. Adipisci.
-                </p>
-            </li>
-
-            <li  class="galery_items">
-                <img src="./img/friends.jpg" alt="friends">
-                <p></p>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur
-                     voluptas quos dolor tenetur eum earum similique necessitatibus modi ad reiciendis
-                      non saepe adipisci, quo voluptates soluta culpa aliquid. Adipisci.
-                </p>
-            </li>
-
-            <li class="galery_items">
-                <img src="./img/woman.jpg" alt="woman">
-                <p></p>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur
-                     voluptas quos dolor tenetur eum earum similique necessitatibus modi ad reiciendis
-                      non saepe adipisci, quo voluptates soluta culpa aliquid. Adipisci.
-                </p>
-            </li>
-        </ul>
-        <ul class="galery_list">
-            <li class="galery_items">
-                <img src="./img/coffe.jpg" alt="coffe">
-                <p></p>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur
-                     voluptas quos dolor tenetur eum earum similique necessitatibus modi ad reiciendis
-                      non saepe adipisci, quo voluptates soluta culpa aliquid. Adipisci.
-                </p>
-            </li>
-            <li class="galery_items">
-                <img src="./img/homeless.jpg" alt="homeless">
-                <p></p>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur
-                     voluptas quos dolor tenetur eum earum similique necessitatibus modi ad reiciendis
-                      non saepe adipisci, quo voluptates soluta culpa aliquid. Adipisci.
-                </p>
-            </li>
-
-            <li class="galery_items">
-                <img src="./img/road.jpg" alt="road">
-                <p></p>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur
-                     voluptas quos dolor tenetur eum earum similique necessitatibus modi ad reiciendis
-                      non saepe adipisci, quo voluptates soluta culpa aliquid. Adipisci.
-                </p>
-            </li>
-        </ul>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     
-    </div>
-</main>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="./css/styles.css" rel="stylesheet" />
+   
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="header-list list">
+          <li><a class="header-link current" href="./index.html">LIFESTYLE</a></li>
+          <li><a class="header-link" href="./">PHOTODIARY</a></li>
+          <li><a class="header-link" href="./music.html">MUSIC</a></li>
+          <li><a class="header-link" href="./">TRAVEL</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<footer>
-<button type="button">Load more</button>
-</footer>
-</body>
+    <main>
+      <section class="gallery">
+        <!-- gallery list -->
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="./images/img-music.jpg" alt="music" />
+            <p class="gallery-topic">LIFESTYLE</p>
+            <h3 class="gallery-heading">More than just a music festival</h3>
+            <p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/coffe.jpg" alt="coffee" />
+            <p class="gallery-topic">LIFESTYLE</p>
+            <h3 class="gallery-heading">Life tastes better with coffee</h3>
+            <p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/dream.jpg" alt="dream" />
+            <p class="gallery-topic">PHOTODAIRY</p>
+            <h3 class="gallery-heading">American dream</h3>
+            <p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/alps.jpg" alt="exploring" />
+            <p class="gallery-topic">PHOTODAIRY</p>
+            <h3 class="gallery-heading">A day exploring the Alps</h3>
+            <p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/running.jpg" alt="running" />
+            <p class="gallery-topic">LIFESTYLE</p>
+            <h3 class="gallery-heading">Top 10 song for running</h3>
+
+<p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="gallery-item">
+            <img src="./images/road.jpg" alt="winter" />
+            <p class="gallery-topic">LIFESTYLE</p>
+            <h3 class="gallery-heading">Cold winter days</h3>
+            <p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+        </ul>
+        <button type="button" class="gallery-btn">Load more</button>
+      </section>
+    </main>
+  </body>
 </html>

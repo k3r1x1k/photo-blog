@@ -1,115 +1,44 @@
+
 :root {
-
     --main-text-color: #626262;
-
     --heading-color: #B4AD9E;
-
     --nav-link-color: #7D7D7D;
-
     --accent-color: #03A9F4;
-
     --bg-color: #FFFFFF;
-
     --border-btn-color: #626262;
 
     --font-family: "Playfair Display", sans-serif;
-
     --second-family: "Ubuntu", sans-serif;
-
 }
 
-h3{
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 30px;
-color: #626262;
-}
-
-body{
+body {
     font-family: var(--font-family);
-    font-optical-sizing: auto;
+    color: var(--main-text-color);
+    background-color: var(--bg-color);
     font-weight: 400;
-    font-style: normal;
+    font-size: 14px;
 }
 
-.container {
-    width: 936px;
-    padding: 0 15px;
-    margin: 0 auto;
-    /* padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto; */
-    outline: 1px solid red;
+.header-link {
+    color: var(--nav-link-color);
 }
 
-ul {
-    list-style-type: none;
-}
-.header_list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.header-link.current {
+    color: var(--accent-color);
 }
 
-
-
-button {
-    width: 165px;
-    height: 60px;
-    background-color:var(--bg-color);
-    /* border-radius: 10px; */
-    border: 1px solid black;
+.gallery-topic {
+    font-family: var(--second-family);
+    font-weight: 300;
+    color: var(--heading-color);
 }
 
-footer {
-    justify-content: center;
-    display: flex;
+.gallery-heading {
+    font-size: 30px;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-
-.header_nav {
-    font-size: 23px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 50px;
-    padding-bottom: 40px;
-
-}
-
-p {
-    width: 420px;
-}
-
-.galery_list {
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.galery_list {
-    padding-left: 35px;
-    padding-right: 35px;
-
-}
-
-.galery_items {
-    padding-top: 50px;
-}
-
-a {
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.spa {
-    color:var(--accent-color);
-    font-size: 15px;
+.gallery-btn {
+    font-family: inherit;
+    font-size: 14px;
+    color: inherit;
 }
