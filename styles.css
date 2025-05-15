@@ -26,9 +26,17 @@ body {
     font-size: 14px;
 }
 
-.header {
+.header-flex{
+    display: flex;
+}
+
+.header{
     padding-top: 71px;
     padding-bottom: 26px;
+}
+
+.header-logo{
+    margin-right: 70px;
 }
 
 .header-list {
@@ -44,6 +52,11 @@ body {
 
 .header-link.current {
     color: var(--accent-color);
+}
+
+.header-button{
+  
+    margin-left: auto;
 }
 
 .gallery {
