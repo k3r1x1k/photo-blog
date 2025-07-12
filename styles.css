@@ -24,6 +24,7 @@ body {
     background-color: var(--bg-color);
     font-weight: 400;
     font-size: 14px;
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(177, 47, 124, 1) 21%, rgba(240, 32, 46, 1) 48%, rgba(249, 145, 64, 1) 75%, rgba(252, 176, 69, 1) 100%);
 }
 
 .header-flex{
@@ -62,7 +63,7 @@ body {
 .gallery {
     padding-top: 66px;
     padding-bottom: 66px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .gallery-topic {
@@ -83,6 +84,8 @@ body {
 
 .gallery-item{
     width: 420px;
+    background-color: #ffffffe3;
+    box-shadow: 5px 5px 20px 16px white;
 }
 
 .gallery-list{
