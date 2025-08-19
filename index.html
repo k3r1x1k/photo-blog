@@ -1,24 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photoblog</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./styles.css">
-   
-  </head>
-  <body>
-    <header class="header">
-      <div class="container header-flex">
-        <!-- <a class="header-logo" href="./index.html">Logo</a> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoblog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-flex">
+      <!-- <a class="header-logo" href="./index.html">Logo</a> -->
       <nav>
         <ul class="header-list list">
           <li><a class="header-link current" href="./index.html">LIFESTYLE</a></li>
@@ -27,13 +31,13 @@
           <li><a class="header-link" href="./">TRAVEL</a></li>
         </ul>
       </nav>
-      <!-- <button class="header-button">Join to us</button> -->
-      </div>
-    </header>
+      <button class="header-button" data-modal-open>Join to us</button>
+    </div>
+  </header>
 
-    <main>
-      <section class="gallery">
-        <div class="container">
+  <main>
+    <section class="gallery">
+      <div class="container">
         <!-- gallery list -->
         <ul class="gallery-list">
           <li class="gallery-item">
@@ -85,7 +89,7 @@
             <p class="gallery-topic">LIFESTYLE</p>
             <h3 class="gallery-heading">Top 10 song for running</h3>
 
-              <p class="gallery-text">
+            <p class="gallery-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -106,7 +110,15 @@
         </ul>
         <button type="button" class="gallery-btn">Load more</button>
       </div>
-      </section>
-    </main>
-  </body>
+    </section>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-button" data-modal-close>close</button>
+        <p>ку-ку</p>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </main>
+</body>
+
 </html>
