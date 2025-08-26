@@ -114,7 +114,17 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-button" data-modal-close>close</button>
-        <p>ку-ку</p>
+        <form class="modal-form">
+          <label class="modal-label">
+            <span>name please</span>
+            <input type="text" required placeholder="kiril">
+          </label>
+          <label class="modal-label">
+            <span>password please</span>
+            <input type="password" required minlength="6" placeholder="123456">
+          </label>
+          <button class="modal-form-button">confirm</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
