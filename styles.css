@@ -54,17 +54,31 @@ body {
     color: #43c1fc;
 }
 
-.header-link {
+.header-item{
     color: var(--nav-link-color);
 }
 
-.header-link.current {
+.header-item:hover + .header-sub-list{
+    display: block;
+    position: absolute;
+}
+
+.header-item.current {
     color: var(--accent-color);
 }
 
 .header-button{
   
     margin-left: auto;
+}
+
+.header-sub-list{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 8px;
+    color: #9c9c9c;
+    display: none;
 }
 
 .gallery {
@@ -108,12 +122,20 @@ margin-left: auto;
     width: 420px;
     background-color: #ffffffe3;
     box-shadow: 5px 5px 20px 16px white;
+    border-radius: 16px;
+    border: 2px solid black;
+    overflow: auto;
 }
 
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 130px 65px;
+    gap: 65px;
+}
+
+.gallery-text{
+    margin-top: 40px;
+    padding: 0 12px;
 }
 
 .backdrop{
