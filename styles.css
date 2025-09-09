@@ -50,9 +50,9 @@ body {
     gap: 100px;
 }
 
-.header-list a:hover{
+/* .header-list a:hover{
     color: #43c1fc;
-}
+} */
 
 .current{
     color: var(--accent-color);
@@ -69,6 +69,19 @@ body {
     height: 4px;
 }
 
+.header-link{
+    transition-property: color, transform;
+    transition-duration: 500ms;
+    /* transition-timing-function: linear; */
+}
+
+.header-link:hover{
+   transform: scale(1.25);
+   color: var(--accent-color);
+   color: red;
+   background-color: yellow;
+}
+
 .header-item{
     color: var(--nav-link-color);
 }
@@ -82,7 +95,7 @@ body {
     position: absolute;
 }
 
-.header-item.current {
+.header-item.current {  
     color: var(--accent-color);
     position: relative;
 }
