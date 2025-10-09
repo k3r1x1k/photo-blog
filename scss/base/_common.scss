@@ -1,0 +1,16 @@
+body {
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+  background-color: var(--bg-color);
+  font-weight: 400;
+  font-size: 14px;
+  /* background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(177, 47, 124, 1) 21%, rgba(240, 32, 46, 1) 48%, rgba(249, 145, 64, 1) 75%, rgba(252, 176, 69, 1) 100%); */
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.current{
+    color: var(--accent-color);
+}

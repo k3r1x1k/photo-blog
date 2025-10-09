@@ -1,0 +1,38 @@
+.gallery {
+    padding-top: 66px;
+    padding-bottom: 66px;
+    /* background-color: aquamarine; */
+    .gallery-item{
+    width: 420px;
+    background-color: #ffffffe3;
+    box-shadow: 5px 5px 20px 16px white;
+    border-radius: 16px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+&-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap
+
+&-text{
+    margin-top: 40px;
+    padding: 0 12px;
+}
+&-topic {
+    font-family: $second-family;
+    font-weight: 300;
+    color: $heading-color;
+}
+
+&-heading {
+    font-size: 30px;
+}
+}
+}
+
+
+.gallery-btn {
+ @extend %btn;
+}
