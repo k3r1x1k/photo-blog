@@ -12,9 +12,9 @@
 }
 
 &-list{
-    display: flex;
+    // display: flex;
+    @include flexybel (center, center);
     flex-wrap: wrap;
-    gap
 
 &-text{
     margin-top: 40px;
