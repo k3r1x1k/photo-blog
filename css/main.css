@@ -68,10 +68,22 @@ body {
 }
 
 .container {
-  width: 936px;
+  width: 420px;
   margin: 0 auto;
   padding: 0 15px;
-  /* outline:1px solid red; */
+  outline: 1px solid red;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 730px;
+    outline: 1px solid blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 900px;
+    outline: 1px solid greenyellow;
+  }
 }
 
 .header {
@@ -82,10 +94,15 @@ body {
   margin-right: 70px;
 }
 .header-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   gap: 100px;
+}
+@media screen and (min-width: 900px) {
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 100px;
+  }
 }
 .header-flex {
   display: -webkit-box;

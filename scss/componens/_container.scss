@@ -1,6 +1,21 @@
 .container{
-    width: 936px;
+    // width: 936px;
+    // margin: 0 auto;
+    // padding: 0 15px;
+    //  outline:1px solid red; 
+
+    width: 420px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline:1px solid red; */
+    outline:1px solid red;
+
+         @media screen and (min-width: 768px) {
+        width: 730px;   
+        outline: 1px solid blue;
+     }
+
+     @media screen and (min-width: 1200px) {
+        width: 900px;   
+        outline: 1px solid greenyellow;
+     }
 }
